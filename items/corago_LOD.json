@@ -1,0 +1,39 @@
+{
+	"@context": "http://schema.org/",
+	"@type": "Dataset",
+	"@id": "https://doi.org/10.5281/zenodo.3865867",
+	"identifier": "https://doi.org/10.5281/zenodo.3865867",
+	"name": "Corago LOD",
+	"description": "The Corago repository holds historical information about the italian opera from 1600 to 1900: more than 20.000 works, over 35.000 events and 50.000 librettos are listed.",
+	"license": "http://creativecommons.org/licenses/by/4.0/deed.nl",
+	"creator": {
+		"@type": "Organization",
+		"name": "Utrecht",
+		"url": "http://standaarden.overheid.nl/owms/terms/Utrecht_(gemeente)",
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"name": "Paolo Bonora",
+			"email": "paolo.bonora@unibo.it",
+			"telephone": "3473387135"
+		}
+	},
+	"publisher": {
+		"@id": "https://data.overheid.nl/organisatie/stichting-leerplan-ontwikkeling",
+		"@type": "Organization",
+		"name": "SLO national center of expertise in curriculum development",
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"email": "paolo.bonora@unibo.it",
+			"telephone": "3473387135"
+		}
+	},
+	"mainEntityOfPage": [
+		"corago.unibo.it/lod"
+	],
+	"version": "20200510",
+	"keywords": [
+		"Opera"
+	],
+	"includedInDataCatalog": "Corago",
+	"distribution": []
+}
