@@ -1,0 +1,72 @@
+{
+	"@context": {
+		"@vocab": "http://schema.org/"
+	},
+	"@type": "Dataset",
+	"@id": "http://archief.io/id/B8CA13423A834E8CB9C23DF85F239E31",
+	"identifier": "http://archief.io/id/B8CA13423A834E8CB9C23DF85F239E31",
+	"name": "Voorbeeld dataset",
+	"description": "Door het formulier vooringevulde, vaste waarden om het testen te vereenvoudigen.",
+	"license": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+	"inLanguage": "nl-NL",
+	"creator": {
+		"@type": "Organization",
+		"name": "Ministerie van Onderwijs, Cultuur en Wetenschap",
+		"url": "http://standaarden.overheid.nl/owms/terms/Ministerie_van_Onderwijs,_Cultuur_en_Wetenschap",
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"name": "T. Ester",
+			"email": "voorbeeld@nde.nl",
+			"telephone": "088-1234567"
+		}
+	},
+	"publisher": {
+		"@id": "http://standaarden.overheid.nl/owms/terms/Nationaal_Archief",
+		"@type": "Organization",
+		"name": "Nationaal Archief",
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"name": "T. Ester",
+			"email": "voorbeeld@nde.nl",
+			"telephone": "088-1234567"
+		}
+	},
+	"mainEntityOfPage": [
+		"https://demo.netwerkdigitaalerfgoed.nl/datasets/kb/2.html"
+	],
+	"dateCreated": "2020-03-30T04:05",
+	"datePublished": "2020-03-30T04:05",
+	"dateModified": "2020-03-31T04:05",
+	"version": "4",
+	"keywords": [
+		"Test"
+	],
+	"genre": [
+		"http://standaarden.overheid.nl/owms/terms/Recreatie_(thema)"
+	],
+	"citation": "Oorspronkelijk uit boek A uit archief B inventaris C",
+	"spatialCoverage": "Nederland",
+	"temporalCoverage": "1900-2000",
+	"includedInDataCatalog": {
+		"@type": "DataCatalog",
+		"url": "http://www.example.com/2"
+	},
+	"distribution": [
+		{
+			"@type": "DataDownload",
+			"contentUrl": "http://archief.io/dataset/B8CA13423A834E8CB9C23DF85F239E31",
+			"encodingFormat": [
+				"http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+			],
+			"name": "http://netwerkdigitaalerfgoed.nl/def/soort#datadump",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+			"description": "Heleboel triple statements",
+			"inLanguage": [
+				"en-US"
+			],
+			"datePublished": "2020-03-27T04:05",
+			"dateModified": "2020-03-28T04:05",
+			"contentSize": "123456"
+		}
+	]
+}
